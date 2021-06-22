@@ -1,0 +1,66 @@
+/* BASIC RESET */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  background-color: #014e56; }
+
+body {
+  font-family: "Livvic", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+  color: #fff; }
+
+/*
+PRIMARY:
+  LIGHT -
+    Normal - white border, transparent bg, white text
+    Hover - white bg, dark green text
+    Disabled - normal at 25% opacity
+
+  DARK - 
+    Normal - dark green border and text
+    Hover - dark green bg, white text
+    Disabled - normal @ 25% opacity
+*/
+.btn, .btn:link, .btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1rem 3.2rem;
+  border-radius: 2.4rem;
+  cursor: pointer; }
+
+.btn--light {
+  border: 2px solid #fff; }
+  .btn--light:hover {
+    color: #002529;
+    background-color: #fff; }
+
+.btn--dark {
+  color: #002529;
+  background-color: #fff;
+  border: 2px solid #002529; }
+  .btn--dark:hover {
+    color: #fff;
+    background-color: #002529; }
+
+.btn--secondary {
+  background-color: #fff; }
+
+.header {
+  padding: 7.3rem 16.5rem; }
+
+.navigation__button {
+  background: transparent;
+  color: inherit;
+  border: 2px solid #fff;
+  border-radius: 2.4rem; }
